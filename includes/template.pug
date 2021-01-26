@@ -18,7 +18,7 @@ mixin donatee(d)
     if d.avatar
       img.avatar(src=d.avatar alt=d.name)
     else
-      img.avatar(src="avatar.png" alt=d.name)
+      img.avatar(src="/avatar.png" alt=d.name)
     .top
       h3.name
         a(href=`/${d.id}/`)= d.name
